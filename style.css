@@ -1,0 +1,218 @@
+/* Barra dfe navegacion */
+
+.navbar {
+	background-color:  rgb(99, 172, 221);
+    padding: 2rem;
+	
+}
+.navbar-collapse{
+	align-items: center ;
+	justify-content: right;
+}
+/* Estilos generales */
+
+section{
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+ h1{
+	color:rgb(11, 10, 10);
+	font-size: 3.0rem;
+	font-family: "Rubik Dirt", system-ui;
+ 
+}
+ h2{
+	color:rgb(25, 10, 10);
+	font-size: 1.5rem;
+}
+.seccion-titulo{
+	font-size: 2rem;
+	padding: 15px 0;
+	font-family: "Rubik Dirt", system-ui;
+}
+
+.seccion-descripcion{
+	font-size: 1.2rem;
+	color:rgb(96, 88, 88)
+}
+.seccion-texto{
+	font-size: 1.5rem;
+
+
+}
+
+.seccion_oscura{
+	background-color: rgb(99, 172, 221);
+}
+
+.seccion-clara{
+	color:black;
+	background-color: white;
+
+}
+.textto-negro {
+	color: black;
+}
+
+.texto-blanco{
+	color:white;
+}
+
+
+
+/* Seccion de Hero */
+.hero{
+	background-color: white;
+	min-height: 450px;
+  text-align: center;
+
+}
+.hero-imagen-desarollo{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+}
+
+.hero-inferior{
+	color: antiquewhite;
+	width: 1000px;
+	height: 900px;
+}
+
+/*Sobre mi */
+.sobre-mi{
+	height: 500px;
+	padding: 10px;
+}
+.sobre-mi .contenedor{
+	max-width: 600px;
+	text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* Experiencia */
+.experiencia {
+	padding: 40px;
+}
+
+
+
+ .experiencia-titulo{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px,0px;
+}
+ .badges-contenedor {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0;
+
+
+ } 
+
+
+  i {
+	font-size: 2.5rem;
+	color :black;
+	background-color:rgb(99, 172, 221);
+	padding: 8px,19px;
+	border-radius: 50%;
+    
+ }
+ .experiencia-columna{
+	padding: 20px;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	transition: all 0,2s ease-in;
+
+ }
+.experiencia-columna:hover{
+	color: white;
+	background-color:rgb(99, 172, 221) ;
+}
+
+/* Proyectos */
+
+.proyectos-recientes{
+	padding: 40px;
+
+}
+.proyectos-recientes img{
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	display: block;
+	transition: all 0.2s ease;
+
+}
+ .proyectos-contenedor {
+	padding-top: 60px;
+	margin-bottom: 40px;
+
+ }
+
+ .overlay{
+	text-align: center;
+	transition: all 0.2s ease;
+	opacity: 0;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	
+
+ }
+ .proyecto{
+	position: relative;
+ }
+ .overlay{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 0;
+	
+ }
+ .proyecto:hover img{
+	opacity: 0.2;
+ }
+ .proyecto:hover .overlay{
+	opacity: 1;
+
+ }
+
+
+
+
+
+
+/*@media  screen and (max-width:600px) {
+	.hero-inferior{
+	 
+		display: block;
+	
+	}
+	
+}
+*/
+
+/*    Adptbale del Resposivo 
+@media screen and (max-width: 767px){
+
+	.navbar-brand{
+		display: none;
+	}
+} 
+	
+
+
+*/
+
+
+
